@@ -1,10 +1,10 @@
 #My Little Rainbow
 In this tutorial we're going to make a rainbow with HTML `<div>` elements. And while we do it we're going to learn about html elements, css styling, css selectors, how color works in css, and importing stylesheets.  That might sound like a lot but it isn't.
 
-Before we start here's some basic info about HTML and CSS, skip it to [Making a Rainbow](#making-a-rainbow) if you feel comfortable enough with HTML and CSS.
+Before we start here's some basic info about HTML and CSS, skip to [Making a Rainbow](#making-a-rainbow) if you feel comfortable enough with HTML and CSS.
 
 ##HTML Basics
-Hyper Text Markup Language, or HTML, is a way to demarcate a document into different parts. Each part is _marked_ by elements (using tags). Each element has it's own special conotation that the browser uses to make _render_ the HTML document. Use this [cheat sheet](http://www.cril.univ-artois.fr/~lecoutre/teaching/web/sheets/HTML.pdf) on HTML elements for guidance.
+Hyper Text Markup Language, or HTML, is a way to demarcate a document into different parts. Each part is _marked_ by elements (using tags). Each element has it's own special conotation that the browser uses to _render_ the HTML document. Use this [cheat sheet](http://www.cril.univ-artois.fr/~lecoutre/teaching/web/sheets/HTML.pdf) on HTML elements for guidance.
 
 ####Elements
   - All begin with `<` and end with `>` ex. `<div>` (this last part is a tag)
@@ -16,7 +16,7 @@ Hyper Text Markup Language, or HTML, is a way to demarcate a document into diffe
     - Must begin with a letter A-Z or a-z
     - Can be followed by: letters (A-Za-z), digits (0-9), hyphens ("-"), and underscores ("_")
     - IDs __can__ only be used once per page. ex: `<div id="this-special-div"></div>`
-    - Classes can be used as many times as you want. ex: `<div classes="a-less-special-div"></div>`
+    - Classes can be used as many times as you want. ex: `<div class="a-less-special-div"></div>`
   - Elements nested inside other elements are called children
     - Children inherit attributes from their parents.
     - Don't nest everything. Here's a [website](http://sewingandembroiderywarehouse.com/embtrb.htm) that nested everything. Don't do that!
@@ -103,5 +103,3 @@ And to give that id some CSS attributes we'll go into `main.css`, select the id,
 ```
 
 So to make sure the rainbow isn't so monochromatic you now need to repeat the above steps with the final six colors of the rainbow, and when you do you should have something like [this](http://i0.kym-cdn.com/photos/images/original/000/118/087/2468904593_6a7c692ab6.jpg).
-
-<a href='https://learn.co/lessons/my-little-rainbow' data-visibility='hidden'>View this lesson on Learn.co</a>
