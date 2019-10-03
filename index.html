@@ -3,24 +3,19 @@
   <head><!-- where all the meta data will go, like and files we need to include -->
     <title>My Little Rainbow</title><!-- the title is what appears on your tab -->
   </head>
-
-  <body><!-- the body element is where everything we will see on the page will go -->
-    
-    <!-- our soon to be beautiful rainbow! -->
-    <div> <!-- the grandest grandparent div -->
-      <div>
-        <div>
-          <div>
-            <div>
-              <div>
-                <div></div> <!-- the grandest child div -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </body>
+  
+  <style>
+#grad1 {
+height: 100%;
+opacity: 1;
+background-color: red; /* For browsers that do not support gradients */
+background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); /* Standard syntax (must be last) */
+}
+</style>
+<body><!-- the body element is where everything we will see on the page will go -->
+<div id="grad1" style="text-align:center;margin:auto;color:#FFFFFF;font-size:40px;font-weight:bold">
+Rainbow Background
+</div>
+/body>
 
 </html>
